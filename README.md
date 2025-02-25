@@ -14,23 +14,21 @@ HTML, CSS, Bootstrap
 JavaScript
 IEX Cloud API (for stock price retrieval)
 Setup Instructions
-Clone the repository:
-bash
-Copy
-Edit
+1. Clone the repository:
+```bash
 git clone https://github.com/yourusername/cs50-finance.git
 cd cs50-finance
-Install dependencies:
-bash
-Copy
-Edit
+```
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
-Set up your API key for stock data (IEX Cloud or another provider).
-Run the Flask app:
-bash
-Copy
-Edit
+```
+3.Set up your API key for stock data (IEX Cloud or another provider).
+
+4.Run the Flask app:
+```bash
 flask run
 Access the app in your browser at http://127.0.0.1:5000/.
-License
+```
+License <br>
 This project is part of Harvard's CS50 course.
